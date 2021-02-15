@@ -1,0 +1,131 @@
+*{
+	margin:0;
+}
+#container{
+	width:1100px;
+	min-height:550px;
+	margin:auto;
+	background-image:url('../images/library_home.jpg');
+}
+
+/*layout*/
+header{
+	font-family:arial;
+	height:80px;
+	background-color:red;
+	text-align:center;
+	font-size:30pt;
+	line-height:80px;
+	color:yellow;
+	font-weight:bolder;
+	text-shadow:1px 1px 3px black;
+}
+.header_user{
+	font-size:13pt;
+	color:yellow;
+	width:180px;
+	float:right;
+}
+	
+nav{
+	width:200px;
+	height:440px;
+	background-color:#ce92d7;
+	float:left;
+}
+
+nav a{
+		text-decoration:none;
+		display:block;
+		background-color:#f2b3c4;
+		margin:3px 0px;
+		padding:10px 0px 10px 10px;
+		color:blue;
+}
+nav a:hover{
+	background-color:#ff9897;
+	padding-left:30px;
+	color:black;
+}
+main{
+	width:900px;
+	height:440px;
+	background-color:rgba(240,255,230,0.9);
+	float:right;
+	overflow:auto;
+
+}
+#login_page, #reg_page{
+	width:1100px;
+	height:440px;
+}
+#login_page table tr td, #reg_page table tr td{
+	padding:5px;
+}
+footer{
+	clear:both;
+	height:30px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	line-height:30px;
+}
+	
+	
+/*utilities */
+.btn_red{
+	padding:3px 20px 5px 20px;
+	background-color:red;
+	color:white;
+	font-weight:bolder;
+	font-family:verdana;
+	border-radius:10px;
+	box-shadow:2px 2px 4px #565756;
+}
+
+.center{
+	text-align:center;
+}
+
+.tbl{
+	margin:10px auto;
+	padding:5px 5px;
+	border-collapse:collapse;
+}
+.tbl thead{
+	background-color:red;
+	color:white;
+}
+.tbl thead tr{
+	height:40px;
+}
+
+.tbl tbody tr td{
+	padding:5px;
+}
+.tbl tr:nth-child(even){
+	background-color:#f1e3e3;
+}
+#page_title{
+	text-align:center;
+	padding:5px;
+	font-size:16pt;
+	font-family:arial;
+	font-weight:bolder;
+	margin-bottom:10px;
+	color:red;
+	text-shadow:1px 1px 2px black;
+}
+
+.tbl a{
+	text-decoration:none;
+	display:block;
+	color:blue;
+	text-align:center;
+}
+
+.book_img{
+	margin:5px 15px;
+	box-shadow:2px 2px 4px #696969;
+	
+}
